@@ -21,7 +21,6 @@
 		aggregate(annual,avg)           	///
 		long clear
 		
-		
 	* year variable
 	gen year = year(daten)
 
@@ -50,9 +49,9 @@
 	
 	* reorder cols
 	order year pce*
-	
+
 	* label data
-	lab data "FRED PCEPI: Personal cons. exp. price index"
+	lab data "FRED: PCE price index"
 	
 	* print summary
 	desc

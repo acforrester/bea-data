@@ -88,7 +88,7 @@
 	sort state_code
 
 	* label data
-	lab data "Census FIPS Codes: States and regions"
+	lab data "Census: FIPS codes"
 	
 	* print summary
 	desc

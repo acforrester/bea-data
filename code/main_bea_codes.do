@@ -28,7 +28,7 @@
 	
 	* main directories
 	gl build	${dir}/build/
-	gl output	${dir}/output/
+	gl clean	${dir}/clean/
 	gl merge	${dir}/merge/
 	gl code 	${dir}/code/
 	
@@ -59,6 +59,7 @@
 		fetch
 		sainc4
 		sainc51
+		geogr
 		pcepi
 		merge;
 
@@ -67,7 +68,8 @@
 	* set parameters (which files to run)
 	loc	switch_fetch   = 1	// Fetch and unzip thew data
 	loc	switch_sainc4  = 1	// SAINC4  - income/emp/population
-	loc	switch_sainc51 = 1	// SAINC51 - disposable income
+	loc	switch_sainc51 = 1	// SAINC51 - disposable incomez
+	loc	switch_geogr   = 1	// Census FIPS codes
 	loc	switch_pcepi   = 1	// PCE from FRED
 	loc	switch_merge   = 1	// Merge all of the data
 	
