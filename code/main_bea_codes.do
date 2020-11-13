@@ -1,14 +1,10 @@
-/**************************************************************************
+/**************************************************************************	
 	
-	main-trust-codes.do
+	Program:  main_bea_codes.do
+	Authors:  AC Forrester
 	
-	AC Forrester
-	
-	Last update: 12.23.2019
-	
-	Main file to set directories for the Nowrasteh & Forrester (2019) 
-	trust paper.
-	
+	Purpose: Set directories and run the codes to clean the BEA accounts data.
+		
 **************************************************************************/	
 	
 	clear all
