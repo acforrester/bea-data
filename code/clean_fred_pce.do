@@ -28,7 +28,7 @@
 	qui sum value if year == 2019
 		
 	* reindex to 2018
-	gen pce2019 = r(mean)/value*100
+	gen pce2019 = value/r(mean)
 		
 /**************************************************************************
 

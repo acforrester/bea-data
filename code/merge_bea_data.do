@@ -57,7 +57,7 @@
 	
 	* adjust for inflation with PCE
 	foreach var of local income_vars {
-		replace `var' = `var'*pce2019/100
+		replace `var' = `var'/pce2019
 	}
 	
 	* sort descending
